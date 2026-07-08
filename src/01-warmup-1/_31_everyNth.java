@@ -9,12 +9,12 @@
 public class _31_everyNth {
 
 	public String everyNth(String str, int n) {
-		String new_str = "";
+		String result = "";
 
 		for (int i = 0; i < str.length(); i += n)
-			new_str += str.charAt(i);
+			result += str.charAt(i);
 
-		return new_str;
+		return result;
 	}
 
 	// Solution:

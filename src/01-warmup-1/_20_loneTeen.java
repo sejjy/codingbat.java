@@ -7,12 +7,12 @@
 
 public class _20_loneTeen {
 
+	// @formatter:off
 	public boolean loneTeen(int a, int b) {
-		// @formatter:off
 		return ((a >= 13 && a <= 19) && (b < 13 || b > 19)) ||
 			   ((b >= 13 && b <= 19) && (a < 13 || a > 19));
-		// @formatter:on
 	}
+	// @formatter:on
 
 	// Solution:
 
